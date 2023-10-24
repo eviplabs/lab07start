@@ -3,8 +3,6 @@
 ## Felkészülés a laborra
 
 - Lásd Moodle
-- XAML használata felhasználói felülethez:
-    - https://docs.microsoft.com/en-us/windows/uwp/xaml-platform/
 - MAUI App készítési alapok:
     - https://docs.microsoft.com/en-us/dotnet/maui/get-started/first-app?pivots=devices-windows
 - MAUI elrendezés:
@@ -40,9 +38,9 @@ A három gomb egymás alatt helyezkedik el:
 
 ```html
 <StackLayout Orientation="Vertical">
-    <Button x:Name="firstBtn" Text="First" Width="100" />
-    <Button x:Name="secondBtn" Text="Second" Width="100" />
-    <Button x:Name="thirdBtn" Text="Third" Width="100" />
+    <Button x:Name="firstBtn" Text="First" WidthRequest="100" />
+    <Button x:Name="secondBtn" Text="Second" WidthRequest="100" />
+    <Button x:Name="thirdBtn" Text="Third" WidthRequest="100" />
 </StackLayout>
 ```
 
@@ -50,9 +48,9 @@ A három gomb egymás mellett helyezkedik el:
 
 ```html
 <StackLayout Orientation="Horizontal">
-    <Button x:Name="firstBtn" Text="First" Width="100" />
-    <Button x:Name="secondBtn" Text="Second" Width="100" />
-    <Button x:Name="thirdBtn" Text="Third" Width="100" />
+    <Button x:Name="firstBtn" Text="First" WidthRequest="100" />
+    <Button x:Name="secondBtn" Text="Second" WidthRequest="100" />
+    <Button x:Name="thirdBtn" Text="Third" WidthRequest="100" />
 </StackLayout>
 ```
 
